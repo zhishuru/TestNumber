@@ -1,7 +1,7 @@
 require File.join(File.dirname(__FILE__),"../calculator")
 require 'rspec'
 
-Given /^I have a calculator created$/ do
+Given /^I have a calculator created$ do
     @calculator=Calculator.new
 end
 
